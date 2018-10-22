@@ -1,0 +1,72 @@
+<!--
+#@Tyler McGrew
+#10/13/2018
+-->
+
+<FPGA-Settings>
+	
+	<!-- 
+	<Enabled> TRUE or FALSE </Enabled>
+	TRUE: Full bus will be enabled
+	FALSE: Will not be enabled 
+	-->
+	
+	<Module_Name> TestProgram </Module_Name>
+	
+	<Components>
+	
+		<Clock>
+			<Enabled> TRUE </Enabled>
+		</Clock>
+	
+		<LED_Red>
+			<Enabled> TRUE </Enabled>
+		</LED_Red>
+	
+		<LED_Green>
+			<Enabled> TRUE </Enabled>      
+		</LED_Green>
+	
+		<Button>
+			<Enabled> TRUE </Enabled>
+		</Button>
+	
+		<VGA>
+			<Enabled> TRUE </Enabled>
+		</VGA>
+	
+		<Audio>
+			<Enabled> TRUE </Enabled>
+		</Audio>
+	
+		<IR_Receiver>
+			<Enabled> TRUE </Enabled>
+		</IR_Receiver>
+	
+		<RS_232>
+			<Enabled> TRUE </Enabled>
+		</RS_232>
+	
+		<Seven_Segment>
+			<Enabled> TRUE </Enabled>
+		</Seven_Segment>
+	
+		<Switch>
+			<Enabled> TRUE </Enabled>
+		</Switch>
+	
+		<LCD>
+			<Enabled> TRUE </Enabled>
+		</LCD>
+	
+		<SMA>
+			<Enabled> TRUE </Enabled>
+		</SMA>
+	
+		<EX_IO>
+			<Enabled> TRUE </Enabled>
+		</EX_IO>
+		
+	</Components>
+	
+</FPGA-Settings>
